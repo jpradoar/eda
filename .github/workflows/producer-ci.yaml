@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-      - feat/issues/#3
+      - feat/issues/#3 
     paths:
       - '03-producer/**' # Any change in this path, make trigger build action.
       - '.github/workflows/producer-ci.yaml'
